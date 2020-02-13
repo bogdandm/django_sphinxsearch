@@ -1,14 +1,13 @@
+_This fork uses PyMySQL as mysql client driver_
+
 # Django-sphinxsearch
 
 [SphinxSearch](http://sphinxsearch.com) database backend for [Django](https://www.djangoproject.com/).
 
-[![Build Status](https://travis-ci.org/tumb1er/django_sphinxsearch.svg)](https://travis-ci.org/tumb1er/django_sphinxsearch)
-[![codecov](https://codecov.io/gh/tumb1er/django_sphinxsearch/branch/master/graph/badge.svg)](https://codecov.io/gh/tumb1er/django_sphinxsearch)
-[![PyPI version](https://badge.fury.io/py/django_sphinxsearch.svg)](http://badge.fury.io/py/django_sphinxsearch)
+[![Build Status](https://travis-ci.org/bogdandm/django_sphinxsearch.svg)](https://travis-ci.org/tumb1er/django_sphinxsearch)
 
-* Not a [django_sphinx_db](https://github.com/smartfile/django-sphinx-db) fork
 * `Django>=2.0,<3.1` supported
-* Tested against Django-2.2 (LTS) and Django-3.0
+* Tested against Django-2.0, Django-2.1, Django-2.2 (LTS) and Django-3.0
 
 ## Installation and usage
 

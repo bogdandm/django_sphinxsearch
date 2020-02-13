@@ -1,12 +1,13 @@
 language: python
 dist: xenial
 python:
-  - "3.6"
   - "3.7"
   - "3.8"
 
 env:
   matrix:
+    - DJANGO=2.0
+    - DJANGO=2.1
     - DJANGO=2.2
     - DJANGO=3.0
 
@@ -16,8 +17,8 @@ before_install:
 
 
 install:
-  - pip install Django~=$DJANGO
   - pip install -r test-requires.txt
+  - pip install Django~=$DJANGO
   - pip install codecov
 
 # command to run tests
