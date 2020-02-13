@@ -67,14 +67,14 @@ setup(
         'sphinxsearch.backend',
         'sphinxsearch.backend.sphinx',
     ],
-    url='http://github.com/tumb1er/django_sphinxsearch',
+    url='http://github.com/bogdandm/django_sphinxsearch',
     license='Beerware',
     author='tumbler',
     author_email='zimbler@gmail.com',
     description='Sphinxsearch database backend for django>=2.0',
     setup_requires=[
         'Django>=2.0,<3.1',
-        'mysqlclient>=1.4.4,<1.5.0',
+        'PyMySql>=0.9',
         'pytz'
     ],
 )
